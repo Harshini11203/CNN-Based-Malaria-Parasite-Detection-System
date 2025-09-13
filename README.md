@@ -197,3 +197,9 @@ y_pred = (model.predict(test_generator) > 0.5).astype("int32")
 print(confusion_matrix(y_true, y_pred))
 print(classification_report(y_true, y_pred))
 ```
+
+
+## Conclusion
+
+This project demonstrates how Convolutional Neural Networks (CNNs) can effectively classify blood smear images as parasitic or non-parasitic. By preparing the dataset, training the model, and validating its performance, the system achieves reliable accuracy for malaria detection. While the current approach is a strong baseline, future improvements like transfer learning or fine-tuning could further enhance performance.
+
