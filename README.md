@@ -198,6 +198,9 @@ print(confusion_matrix(y_true, y_pred))
 print(classification_report(y_true, y_pred))
 ```
 
+## Screenshots
+
+- <a href="https://github.com/Harshini11203/Mystery-Script/tree/main/Mystery%20Script%20Screenshots">View Screenshots</a>
 
 ## Conclusion
 
