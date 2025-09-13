@@ -200,9 +200,13 @@ print(classification_report(y_true, y_pred))
 
 ## Screenshots
 
-- <a href="https://github.com/Harshini11203/Mystery-Script/tree/main/Mystery%20Script%20Screenshots">View Screenshots</a>
+- <a href="https://github.com/Harshini11203/CNN-Based-Malaria-Parasite-Detection-System/tree/main/Malarial%20Parasite%20Detection%20screenshots">View Screenshots</a>
 
 ## Conclusion
 
 This project demonstrates how Convolutional Neural Networks (CNNs) can effectively classify blood smear images as parasitic or non-parasitic. By preparing the dataset, training the model, and validating its performance, the system achieves reliable accuracy for malaria detection. While the current approach is a strong baseline, future improvements like transfer learning or fine-tuning could further enhance performance.
+
+## Future Enhancements
+
+This project can be enhanced by applying transfer learning with pre-trained CNNs (ResNet, VGG, Inception) for improved accuracy, and by using advanced data augmentation or GANs to enrich the dataset. Ensemble learning could boost robustness by combining multiple models, while interpretability methods would provide insights into predictions. Building user-friendly deployment interfaces with real-time diagnosis and extending the system to multi-class classification of different parasite types would further expand its medical applications.
 
